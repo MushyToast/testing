@@ -1,4 +1,4 @@
-var button = document.getElementById("h1")
+var button = document.getElementById("btn")
 button.onclick = function(){
     alert("Hey! You clicked the button. Kill yourself!")
 }
