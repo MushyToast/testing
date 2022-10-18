@@ -1,4 +1,5 @@
-var button = document.getElementById("btn")
-button.onclick = function(){
-    alert("Hey! You clicked the button. Kill yourself!")
+window.onload = function(){
+    document.getElementById("btn").onclick=function(){
+        alert("You clicked me. Yay...");
+    }
 }
