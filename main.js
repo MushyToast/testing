@@ -2,7 +2,7 @@ window.onload = function(){
     document.getElementById("btn").onclick=function(){
         var text = document.getElementById("h1")
         alert("You clicked me. Yay...")
-        text.innerHTML = "Goofy :skull:"
+        text.innerHTML = "sussy boi"
     }
     var sbmit = document.getElementById("amogsus2")
     var kewltext = document.getElementById("amogsus")
