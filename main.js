@@ -8,7 +8,7 @@ window.onload = function(){
         document.getElementById("h1").innerHTML = document.getElementById("amogsus").value
     }
 }
-
+//chingchong
 }
 
 
