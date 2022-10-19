@@ -1,6 +1,6 @@
 window.onload = function(){
+    var text = document.getElementById("h1")
     document.getElementById("btn").onclick=function(){
-        var text = document.getElementById("h1")
         alert("Caught in 9k ayo")
         text.innerHTML = "sussy boi"
     }
