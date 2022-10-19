@@ -4,11 +4,12 @@ window.onload = function(){
         alert("You clicked me. Yay...")
         text.innerHTML = "Goofy :skull:"
     }
-}
+    var sbmit = document.getElementById("amogsus2")
+    var kewltext = document.getElementById("amogsus")
 
-var sbmit = document.getElementById("amogsus2")
-var kewltext = document.getElementById("amogsus")
-
-sbmit.onclick=function(){
+    sbmit.onclick=function(){
     text.innerHTML = toString(kewltext.Value)
 }
+
+}
+
