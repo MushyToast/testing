@@ -4,11 +4,9 @@ window.onload = function(){
         alert("Caught in 9k ayo")
         text.innerHTML = "sussy boi"
     }
-    var sbmit = document.getElementById("amogsus2")
-    var kewltext = document.getElementById("amogsus")
-
-    sbmit.onclick=function(){
-    text.innerHTML = toString(kewltext.value)
+    document.getElementById("amogsus2").onclick = function(){
+        document.getElementById("h1").innerHTML = document.getElementById("amogsus").value
+    }
 }
 
 }
