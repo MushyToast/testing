@@ -8,8 +8,9 @@ window.onload = function(){
     var kewltext = document.getElementById("amogsus")
 
     sbmit.onclick=function(){
-    text.innerHTML = toString(kewltext.Value)
+    text.innerHTML = toString(kewltext.value)
 }
 
 }
+
 
