@@ -11,4 +11,3 @@ window.onload = function(){
         document.write(fetch("https://mushytoast.github.io/mysite/index.html"))
     }
 }
-/*GOOFY*/
