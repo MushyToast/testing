@@ -1,13 +1,9 @@
-window.onload = function(){
-    var text = document.getElementById("h1")
-    document.getElementById("btn").onclick=function(){
-        alert(document.getElementById("amogsus").value)
-        text.innerHTML = "sussy boi"
+$(document).ready(function(){
+    var h1 = document.getElementById("women")
+    document.getElementById('men').onclick = function(){
+        $("#women").animate({
+            duration: '5',
+            opacity: '0'
+        })
     }
-    document.getElementById("amogsus2").onclick = function(){
-        document.getElementById("h1").innerHTML = document.getElementById("amogsus").value
-    }
-    document.getElementById("clear").onclick = function(){
-        document.write(fetch("https://mushytoast.github.io/mysite/index.html"))
-    }
-}
+})
