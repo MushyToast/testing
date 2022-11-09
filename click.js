@@ -3,7 +3,7 @@ $(document).ready(function(){
     const count = document.getElementById("count")
     let clicks = 0
     $(button).click(function(){
-        clicks++
-        count.innerHTML = toString(clicks)
+        clicks += 1
+        count.innerHTML = clicks
     })
 })
