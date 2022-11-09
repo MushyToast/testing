@@ -1,7 +1,7 @@
 $(document).ready(function(){
     const button = document.getElementById("bobux")
     const button2 = document.getElementById("xtra")
-    const button3 = dcoument.getElementById("xxtra")
+    const button3 = document.getElementById("xxtra")
     const count = document.getElementById("count")
     let clicks = 0
     $(button).click(function(){
