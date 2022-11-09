@@ -7,7 +7,7 @@ $(document).ready(function(){
     $(button).click(function(){
         clicks += 1
         count.innerHTML = clicks
-    })
+    }) /*squirt on me*/
     $(button2).click(function(){
         clicks += 10
         count.innerHTML = clicks
