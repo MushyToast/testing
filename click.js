@@ -4,6 +4,6 @@ $(document).ready(function(){
     const count = document.getElementById("count")
     $(button).click(function(){
         clicks = clicks + 1
-        count.innerHTML = toString(clicks) /*free bobux loooool */
+        count.innerHTML = toString(clicks)
     })
 })
