@@ -12,7 +12,7 @@ $(document).ready(function(){
         clicks += 10
         count.innerHTML = clicks
     })
-    $(button3).click(function(){
+    $(button3).click(function(){ /*bobux*/
         clicks += 50
         count.innerHTML = clicks
     })
