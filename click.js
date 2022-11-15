@@ -7,12 +7,12 @@ $(document).ready(function(){
     $(button).click(function(){
         clicks += 1
         count.innerHTML = clicks
-    }) /*squirt on me*/
+    })
     $(button2).click(function(){
         clicks += 10
         count.innerHTML = clicks
     })
-    $(button3).click(function(){ /*bobux*/
+    $(button3).click(function(){ 
         clicks += 50
         count.innerHTML = clicks
     })
